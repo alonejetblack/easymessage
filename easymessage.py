@@ -27,5 +27,10 @@ if __name__ == '__main__':
     message = EasyMessage("Hello world")
     message("What are you looking for?")
     message("Is this is your looking for?")
-    #print(message.text)
-    print(message)
+    #print(message)
+    print(message.text)
+    """ output:
+    Hello world
+    What are you looking for?
+    Is this is your looking for?
+    """
